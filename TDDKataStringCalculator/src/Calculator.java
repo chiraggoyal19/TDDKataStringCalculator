@@ -10,8 +10,16 @@ public class Calculator {
 			return Integer.parseInt(input);
 		}
 		else {
-			return Integer.parseInt(numbers[0])+Integer.parseInt(numbers[1]);
+			return CalculateSum(numbers);
 		}
+	}
+	
+	private int CalculateSum(String number[]) {
+		int sum=0;
+		for(String current:number) {
+			sum+=Integer.parseInt(current);
+		}
+		return sum;
 	}
 
 }

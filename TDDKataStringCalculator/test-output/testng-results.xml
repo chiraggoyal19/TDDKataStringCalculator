@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-15T02:05:01 IST" name="Default suite" finished-at="2021-01-15T02:05:01 IST" duration-ms="72">
+  <suite started-at="2021-01-15T02:11:21 IST" name="Default suite" finished-at="2021-01-15T02:11:21 IST" duration-ms="85">
     <groups>
     </groups>
-    <test started-at="2021-01-15T02:05:01 IST" name="Default test" finished-at="2021-01-15T02:05:01 IST" duration-ms="72">
+    <test started-at="2021-01-15T02:11:21 IST" name="Default test" finished-at="2021-01-15T02:11:21 IST" duration-ms="85">
       <class name="TestCalculate">
-        <test-method is-config="true" signature="init()[pri:0, instance:TestCalculate@2638011]" started-at="2021-01-15T02:05:01 IST" name="init" finished-at="2021-01-15T02:05:01 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:TestCalculate@2638011]" started-at="2021-01-15T02:11:21 IST" name="init" finished-at="2021-01-15T02:11:21 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="EmptyStringReturnZero()[pri:0, instance:TestCalculate@2638011]" started-at="2021-01-15T02:05:01 IST" name="EmptyStringReturnZero" finished-at="2021-01-15T02:05:01 IST" duration-ms="16" status="PASS">
+        <test-method signature="EmptyStringReturnZero()[pri:0, instance:TestCalculate@2638011]" started-at="2021-01-15T02:11:21 IST" name="EmptyStringReturnZero" finished-at="2021-01-15T02:11:21 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmptyStringReturnZero -->
-        <test-method signature="ReturnSumofTwoNumberWithCommaDelimiter()[pri:0, instance:TestCalculate@2638011]" started-at="2021-01-15T02:05:01 IST" name="ReturnSumofTwoNumberWithCommaDelimiter" finished-at="2021-01-15T02:05:01 IST" duration-ms="2" status="PASS">
+        <test-method signature="ReturnSumofTwoNumberWithCommaDelimiter()[pri:0, instance:TestCalculate@2638011]" started-at="2021-01-15T02:11:21 IST" name="ReturnSumofTwoNumberWithCommaDelimiter" finished-at="2021-01-15T02:11:21 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReturnSumofTwoNumberWithCommaDelimiter -->
-        <test-method signature="ReturnSumofTwoNumberWithNewLineDelimiter()[pri:0, instance:TestCalculate@2638011]" started-at="2021-01-15T02:05:01 IST" name="ReturnSumofTwoNumberWithNewLineDelimiter" finished-at="2021-01-15T02:05:01 IST" duration-ms="1" status="PASS">
+        <test-method signature="ReturnSumofTwoNumberWithNewLineDelimiter()[pri:0, instance:TestCalculate@2638011]" started-at="2021-01-15T02:11:21 IST" name="ReturnSumofTwoNumberWithNewLineDelimiter" finished-at="2021-01-15T02:11:21 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReturnSumofTwoNumberWithNewLineDelimiter -->
-        <test-method signature="StringWithSingleNumber()[pri:0, instance:TestCalculate@2638011]" started-at="2021-01-15T02:05:01 IST" name="StringWithSingleNumber" finished-at="2021-01-15T02:05:01 IST" duration-ms="2" status="PASS">
+        <test-method signature="StringWithSingleNumber()[pri:0, instance:TestCalculate@2638011]" started-at="2021-01-15T02:11:21 IST" name="StringWithSingleNumber" finished-at="2021-01-15T02:11:21 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StringWithSingleNumber -->
