@@ -20,4 +20,9 @@ public class TestCalculate {
 		assertEquals(calculator.calculate("1"),1);
 		assertEquals(calculator.calculate("2"),2);
 	}
+	
+	//Test-3 String with two numbers and comma delimiter returns the sum
+	public void ReturnSumofTwoNumberWithCommaDelimiter() {
+		assertEquals(calculator.calculate("1,2"),3);
+	}
 }
