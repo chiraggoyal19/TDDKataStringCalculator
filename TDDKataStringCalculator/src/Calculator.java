@@ -15,16 +15,27 @@ public class Calculator {
 	}
 	
 	private int CalculateSum(String number[]) throws Exception {
-		for(String current:number) {
-			if(Integer.parseInt(current)<0) {
-				throw new Exception("String contains Negative Input"+current);
-			}
-		}
+		CheckforNegatives(number);
 		int sum=0;
 		for(String current:number) {
 			sum+=Integer.parseInt(current);
 		}
 		return sum;
+	}
+	
+	private void CheckforNegatives(String number[]) throws Exception {
+		String negativeinputs="";
+		for(String current:number) {
+			if(Integer.parseInt(current)<0) {
+				negativeinputs+=current+",";
+				if(number.length==1) {
+					throw new Exception("String contains Negative Input"+current);
+				}
+				else {
+					throw new Exception("String contains Negative Input"+negativeinputs);
+				}
+			}
+		}
 	}
 
 }

@@ -44,6 +44,7 @@ public class TestCalculate {
 	@Test(expectedExceptions=Exception.class)
 	public void StringWithnegativeNumberReturnsException() throws Exception {
 		calculator.calculate("-1");
+		calculator.calculate("-1,3,-4,-6,7,-8");
 
 	}
 	
