@@ -25,4 +25,11 @@ public class TestCalculate {
 	public void ReturnSumofTwoNumberWithCommaDelimiter() {
 		assertEquals(calculator.calculate("1,2"),3);
 	}
+	
+	
+	//Test-4 String with two numbers and NewLine delimiter returns the sum
+		public void ReturnSumofTwoNumberWithNewLineDelimiter() {
+			assertEquals(calculator.calculate("1\n2"),3);
+		}
+	
 }

@@ -6,7 +6,7 @@
       <class name="TestCalculate">
         <methods>
           <include name="init"/>
-          <include name="ReturnSumofTwoNumberWithCommaDelimiter"/>
+          <include name="ReturnSumofTwoNumberWithNewLineDelimiter"/>
         </methods>
       </class> <!-- TestCalculate -->
     </classes>
