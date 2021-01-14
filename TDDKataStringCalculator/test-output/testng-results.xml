@@ -1,36 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-15T02:26:46 IST" name="Default suite" finished-at="2021-01-15T02:26:46 IST" duration-ms="95">
+  <suite started-at="2021-01-15T02:45:46 IST" name="Default suite" finished-at="2021-01-15T02:45:46 IST" duration-ms="83">
     <groups>
     </groups>
-    <test started-at="2021-01-15T02:26:46 IST" name="Default test" finished-at="2021-01-15T02:26:46 IST" duration-ms="95">
+    <test started-at="2021-01-15T02:45:46 IST" name="Default test" finished-at="2021-01-15T02:45:46 IST" duration-ms="83">
       <class name="TestCalculate">
-        <test-method is-config="true" signature="init()[pri:0, instance:TestCalculate@6ff29830]" started-at="2021-01-15T02:26:46 IST" name="init" finished-at="2021-01-15T02:26:46 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:TestCalculate@6a2b953e]" started-at="2021-01-15T02:45:46 IST" name="init" finished-at="2021-01-15T02:45:46 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="EmptyStringReturnZero()[pri:0, instance:TestCalculate@6ff29830]" started-at="2021-01-15T02:26:46 IST" name="EmptyStringReturnZero" finished-at="2021-01-15T02:26:46 IST" duration-ms="23" status="PASS">
+        <test-method signature="EmptyStringReturnZero()[pri:0, instance:TestCalculate@6a2b953e]" started-at="2021-01-15T02:45:46 IST" name="EmptyStringReturnZero" finished-at="2021-01-15T02:45:46 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmptyStringReturnZero -->
-        <test-method signature="ReturnSumofThreeNumberWithCommaAndNewLineDelimiter()[pri:0, instance:TestCalculate@6ff29830]" started-at="2021-01-15T02:26:46 IST" name="ReturnSumofThreeNumberWithCommaAndNewLineDelimiter" finished-at="2021-01-15T02:26:46 IST" duration-ms="2" status="PASS">
+        <test-method signature="ReturnSumofThreeNumberWithCommaAndNewLineDelimiter()[pri:0, instance:TestCalculate@6a2b953e]" started-at="2021-01-15T02:45:46 IST" name="ReturnSumofThreeNumberWithCommaAndNewLineDelimiter" finished-at="2021-01-15T02:45:46 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReturnSumofThreeNumberWithCommaAndNewLineDelimiter -->
-        <test-method signature="ReturnSumofTwoNumberWithCommaDelimiter()[pri:0, instance:TestCalculate@6ff29830]" started-at="2021-01-15T02:26:46 IST" name="ReturnSumofTwoNumberWithCommaDelimiter" finished-at="2021-01-15T02:26:46 IST" duration-ms="2" status="PASS">
+        <test-method signature="ReturnSumofTwoNumberWithCommaDelimiter()[pri:0, instance:TestCalculate@6a2b953e]" started-at="2021-01-15T02:45:46 IST" name="ReturnSumofTwoNumberWithCommaDelimiter" finished-at="2021-01-15T02:45:46 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReturnSumofTwoNumberWithCommaDelimiter -->
-        <test-method signature="ReturnSumofTwoNumberWithNewLineDelimiter()[pri:0, instance:TestCalculate@6ff29830]" started-at="2021-01-15T02:26:46 IST" name="ReturnSumofTwoNumberWithNewLineDelimiter" finished-at="2021-01-15T02:26:46 IST" duration-ms="2" status="PASS">
+        <test-method signature="ReturnSumofTwoNumberWithNewLineDelimiter()[pri:0, instance:TestCalculate@6a2b953e]" started-at="2021-01-15T02:45:46 IST" name="ReturnSumofTwoNumberWithNewLineDelimiter" finished-at="2021-01-15T02:45:46 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReturnSumofTwoNumberWithNewLineDelimiter -->
-        <test-method signature="StringWithSingleNumber()[pri:0, instance:TestCalculate@6ff29830]" started-at="2021-01-15T02:26:46 IST" name="StringWithSingleNumber" finished-at="2021-01-15T02:26:46 IST" duration-ms="2" status="PASS">
+        <test-method signature="StringWithSingleNumber()[pri:0, instance:TestCalculate@6a2b953e]" started-at="2021-01-15T02:45:46 IST" name="StringWithSingleNumber" finished-at="2021-01-15T02:45:46 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StringWithSingleNumber -->
+        <test-method signature="StringWithnegativeNumberReturnsException()[pri:0, instance:TestCalculate@6a2b953e]" started-at="2021-01-15T02:45:46 IST" name="StringWithnegativeNumberReturnsException" finished-at="2021-01-15T02:45:46 IST" duration-ms="1" status="FAIL">
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method TestCalculate.StringWithnegativeNumberReturnsException()[pri:0, instance:TestCalculate@6a2b953e] should have thrown an exception of type class java.lang.Exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method TestCalculate.StringWithnegativeNumberReturnsException()[pri:0, instance:TestCalculate@6a2b953e] should have thrown an exception of type class java.lang.Exception
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:82)
+at org.testng.internal.TestInvoker.considerExceptions(TestInvoker.java:747)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:635)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StringWithnegativeNumberReturnsException -->
       </class> <!-- TestCalculate -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

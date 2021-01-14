@@ -40,4 +40,11 @@ public class TestCalculate {
 		
 	}	
 	
+	//Test6- String With Negative Number Throws Exception
+	@Test(expectedExceptions=Exception.class)
+	public void StringWithnegativeNumberReturnsException() throws Exception {
+		calculator.calculate("-1");
+
+	}
+	
 }
