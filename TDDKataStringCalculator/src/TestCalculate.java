@@ -48,4 +48,9 @@ public class TestCalculate {
 
 	}
 	
+	//Test -7 Ignore Values Greater Than 1000
+	public void ValuesGreaterThan1000AreIgnored() throws Exception {
+		assertEquals(calculator.calculate("5,2,1003"),7);
+	}
+	
 }

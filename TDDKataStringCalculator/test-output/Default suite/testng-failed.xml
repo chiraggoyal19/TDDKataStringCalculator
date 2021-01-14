@@ -6,7 +6,7 @@
       <class name="TestCalculate">
         <methods>
           <include name="init"/>
-          <include name="StringWithnegativeNumberReturnsException"/>
+          <include name="ValuesGreaterThan1000AreIgnored"/>
         </methods>
       </class> <!-- TestCalculate -->
     </classes>
