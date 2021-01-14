@@ -61,6 +61,8 @@ public class TestCalculate {
 	//Test-9  Allowing Multiple Delimiters
 	public void AllowingMultipleDelimiters() throws Exception {
 		assertEquals(calculator.calculate("//[*][%]\n1*2%3"),6);
+		assertEquals(calculator.calculate("//[**][%%]\n10**20%%30"),60);
+
 	}
 	
 }

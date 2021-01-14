@@ -13,9 +13,9 @@ public class Calculator {
 		String numbers[]=null;
 		
 		if(input.startsWith("//")) {
-			String parts[]=input.split("\n", 2);
-			String delimiter=finddelimiter(parts[0]);
-			String numbers1[]=parts[1].split(delimiter);
+			String delimiterandnumber[]=input.split("\n", 2);
+			String delimiter=finddelimiter(delimiterandnumber[0]);
+			String numbers1[]=delimiterandnumber[1].split(delimiter);
 			numbers=numbers1.clone();
 		}
 		

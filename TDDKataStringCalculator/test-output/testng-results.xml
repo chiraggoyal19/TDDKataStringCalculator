@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-15T04:24:38 IST" name="Default suite" finished-at="2021-01-15T04:24:38 IST" duration-ms="76">
+  <suite started-at="2021-01-15T04:27:51 IST" name="Default suite" finished-at="2021-01-15T04:27:51 IST" duration-ms="78">
     <groups>
     </groups>
-    <test started-at="2021-01-15T04:24:38 IST" name="Default test" finished-at="2021-01-15T04:24:38 IST" duration-ms="76">
+    <test started-at="2021-01-15T04:27:51 IST" name="Default test" finished-at="2021-01-15T04:27:51 IST" duration-ms="78">
       <class name="TestCalculate">
-        <test-method is-config="true" signature="init()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:24:38 IST" name="init" finished-at="2021-01-15T04:24:38 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:27:51 IST" name="init" finished-at="2021-01-15T04:27:51 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="AllowingMultipleDelimiters()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:24:38 IST" name="AllowingMultipleDelimiters" finished-at="2021-01-15T04:24:38 IST" duration-ms="10" status="PASS">
+        <test-method signature="AllowingMultipleDelimiters()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:27:51 IST" name="AllowingMultipleDelimiters" finished-at="2021-01-15T04:27:51 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AllowingMultipleDelimiters -->
-        <test-method signature="DelimitersofVariableLength()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:24:38 IST" name="DelimitersofVariableLength" finished-at="2021-01-15T04:24:38 IST" duration-ms="2" status="PASS">
+        <test-method signature="DelimitersofVariableLength()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:27:51 IST" name="DelimitersofVariableLength" finished-at="2021-01-15T04:27:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DelimitersofVariableLength -->
-        <test-method signature="EmptyStringReturnZero()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:24:38 IST" name="EmptyStringReturnZero" finished-at="2021-01-15T04:24:38 IST" duration-ms="2" status="PASS">
+        <test-method signature="EmptyStringReturnZero()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:27:51 IST" name="EmptyStringReturnZero" finished-at="2021-01-15T04:27:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmptyStringReturnZero -->
-        <test-method signature="ReturnSumofThreeNumberWithCommaAndNewLineDelimiter()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:24:38 IST" name="ReturnSumofThreeNumberWithCommaAndNewLineDelimiter" finished-at="2021-01-15T04:24:38 IST" duration-ms="1" status="PASS">
+        <test-method signature="ReturnSumofThreeNumberWithCommaAndNewLineDelimiter()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:27:51 IST" name="ReturnSumofThreeNumberWithCommaAndNewLineDelimiter" finished-at="2021-01-15T04:27:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReturnSumofThreeNumberWithCommaAndNewLineDelimiter -->
-        <test-method signature="ReturnSumofTwoNumberWithCommaDelimiter()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:24:38 IST" name="ReturnSumofTwoNumberWithCommaDelimiter" finished-at="2021-01-15T04:24:38 IST" duration-ms="1" status="PASS">
+        <test-method signature="ReturnSumofTwoNumberWithCommaDelimiter()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:27:51 IST" name="ReturnSumofTwoNumberWithCommaDelimiter" finished-at="2021-01-15T04:27:51 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReturnSumofTwoNumberWithCommaDelimiter -->
-        <test-method signature="ReturnSumofTwoNumberWithNewLineDelimiter()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:24:38 IST" name="ReturnSumofTwoNumberWithNewLineDelimiter" finished-at="2021-01-15T04:24:38 IST" duration-ms="2" status="PASS">
+        <test-method signature="ReturnSumofTwoNumberWithNewLineDelimiter()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:27:51 IST" name="ReturnSumofTwoNumberWithNewLineDelimiter" finished-at="2021-01-15T04:27:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReturnSumofTwoNumberWithNewLineDelimiter -->
-        <test-method signature="StringWithSingleNumber()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:24:38 IST" name="StringWithSingleNumber" finished-at="2021-01-15T04:24:38 IST" duration-ms="1" status="PASS">
+        <test-method signature="StringWithSingleNumber()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:27:51 IST" name="StringWithSingleNumber" finished-at="2021-01-15T04:27:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StringWithSingleNumber -->
-        <test-method signature="StringWithnegativeNumberReturnsException()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:24:38 IST" name="StringWithnegativeNumberReturnsException" finished-at="2021-01-15T04:24:38 IST" duration-ms="1" status="PASS">
+        <test-method signature="StringWithnegativeNumberReturnsException()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:27:51 IST" name="StringWithnegativeNumberReturnsException" finished-at="2021-01-15T04:27:51 IST" duration-ms="2" status="PASS">
           <exception class="java.lang.Exception">
             <message>
               <![CDATA[String contains Negative Input-1]]>
@@ -84,7 +84,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StringWithnegativeNumberReturnsException -->
-        <test-method signature="ValuesGreaterThan1000AreIgnored()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:24:38 IST" name="ValuesGreaterThan1000AreIgnored" finished-at="2021-01-15T04:24:38 IST" duration-ms="3" status="PASS">
+        <test-method signature="ValuesGreaterThan1000AreIgnored()[pri:0, instance:TestCalculate@a1cdc6d]" started-at="2021-01-15T04:27:51 IST" name="ValuesGreaterThan1000AreIgnored" finished-at="2021-01-15T04:27:51 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValuesGreaterThan1000AreIgnored -->
