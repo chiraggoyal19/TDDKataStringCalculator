@@ -9,15 +9,25 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">83</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">97</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCalculate</td><td><a href="#m0">StringWithnegativeNumberReturnsException</a></td><td rowspan="1">1610658946826</td><td rowspan="1">1</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">TestCalculate</td><td><a href="#m1">EmptyStringReturnZero</a></td><td rowspan="1">1610658946785</td><td rowspan="1">19</td></tr><tr class="passedeven"><td><a href="#m2">ReturnSumofThreeNumberWithCommaAndNewLineDelimiter</a></td><td rowspan="1">1610658946809</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m3">ReturnSumofTwoNumberWithCommaDelimiter</a></td><td rowspan="1">1610658946813</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m4">ReturnSumofTwoNumberWithNewLineDelimiter</a></td><td rowspan="1">1610658946818</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m5">StringWithSingleNumber</a></td><td rowspan="1">1610658946822</td><td rowspan="1">2</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">TestCalculate</td><td><a href="#m0">EmptyStringReturnZero</a></td><td rowspan="1">1610659222348</td><td rowspan="1">23</td></tr><tr class="passedeven"><td><a href="#m1">ReturnSumofThreeNumberWithCommaAndNewLineDelimiter</a></td><td rowspan="1">1610659222375</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m2">ReturnSumofTwoNumberWithCommaDelimiter</a></td><td rowspan="1">1610659222380</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m3">ReturnSumofTwoNumberWithNewLineDelimiter</a></td><td rowspan="1">1610659222385</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m4">StringWithSingleNumber</a></td><td rowspan="1">1610659222389</td><td rowspan="1">5</td></tr><tr class="passedeven"><td><a href="#m5">StringWithnegativeNumberReturnsException</a></td><td rowspan="1">1610659222400</td><td rowspan="1">2</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">TestCalculate#StringWithnegativeNumberReturnsException</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestException: 
-Method TestCalculate.StringWithnegativeNumberReturnsException()[pri:0, instance:TestCalculate@6a2b953e] should have thrown an exception of type class java.lang.Exception
-	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:82)
-	at org.testng.internal.TestInvoker.considerExceptions(TestInvoker.java:747)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:635)
+<h2>Default test</h2><h3 id="m0">TestCalculate#EmptyStringReturnZero</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCalculate#ReturnSumofThreeNumberWithCommaAndNewLineDelimiter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestCalculate#ReturnSumofTwoNumberWithCommaDelimiter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestCalculate#ReturnSumofTwoNumberWithNewLineDelimiter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestCalculate#StringWithSingleNumber</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestCalculate#StringWithnegativeNumberReturnsException</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.Exception: String contains Negative Input-1
+	at Calculator.CalculateSum(Calculator.java:20)
+	at Calculator.calculate(Calculator.java:13)
+	at TestCalculate.StringWithnegativeNumberReturnsException(TestCalculate.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -41,10 +51,5 @@ Method TestCalculate.StringWithnegativeNumberReturnsException()[pri:0, instance:
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">TestCalculate#EmptyStringReturnZero</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">TestCalculate#ReturnSumofThreeNumberWithCommaAndNewLineDelimiter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">TestCalculate#ReturnSumofTwoNumberWithCommaDelimiter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">TestCalculate#ReturnSumofTwoNumberWithNewLineDelimiter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">TestCalculate#StringWithSingleNumber</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
