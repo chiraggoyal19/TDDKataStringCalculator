@@ -6,7 +6,7 @@
       <class name="TestCalculate">
         <methods>
           <include name="init"/>
-          <include name="DelimitersofVariableLength"/>
+          <include name="AllowingMultipleDelimiters"/>
         </methods>
       </class> <!-- TestCalculate -->
     </classes>

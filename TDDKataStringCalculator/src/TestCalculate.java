@@ -58,4 +58,9 @@ public class TestCalculate {
 		assertEquals(calculator.calculate("//[***]\n1***2***3"),(6));
 	}
 	
+	//Test-9  Allowing Multiple Delimiters
+	public void AllowingMultipleDelimiters() throws Exception {
+		assertEquals(calculator.calculate("//[*][%]\n1*2%3"),6);
+	}
+	
 }
