@@ -10,7 +10,7 @@ public class Calculator {
 			return Integer.parseInt(input);
 		}
 		else {
-			return 3;
+			return Integer.parseInt(numbers[0])+Integer.parseInt(numbers[1]);
 		}
 	}
 
