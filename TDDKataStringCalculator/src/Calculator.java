@@ -16,6 +16,11 @@ public class Calculator {
 	
 	private int CalculateSum(String number[]) throws Exception {
 		CheckforNegatives(number);
+		return IgnoreInputGreaterthan1000andFindSum(number);
+	}
+	
+	
+	private int IgnoreInputGreaterthan1000andFindSum(String []number) {
 		int sum=0;
 		for(String current:number) {
 			if(Integer.parseInt(current)>1000) {
