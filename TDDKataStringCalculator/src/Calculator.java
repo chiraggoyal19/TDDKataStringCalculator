@@ -18,6 +18,9 @@ public class Calculator {
 		CheckforNegatives(number);
 		int sum=0;
 		for(String current:number) {
+			if(Integer.parseInt(current)>1000) {
+				continue;
+			}
 			sum+=Integer.parseInt(current);
 		}
 		return sum;
