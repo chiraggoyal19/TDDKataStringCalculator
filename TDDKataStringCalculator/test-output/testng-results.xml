@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-15T01:02:52 IST" name="Default suite" finished-at="2021-01-15T01:02:52 IST" duration-ms="55">
+  <suite started-at="2021-01-15T01:35:52 IST" name="Default suite" finished-at="2021-01-15T01:35:52 IST" duration-ms="71">
     <groups>
     </groups>
-    <test started-at="2021-01-15T01:02:52 IST" name="Default test" finished-at="2021-01-15T01:02:52 IST" duration-ms="55">
+    <test started-at="2021-01-15T01:35:52 IST" name="Default test" finished-at="2021-01-15T01:35:52 IST" duration-ms="71">
       <class name="TestCalculate">
-        <test-method is-config="true" signature="init()[pri:0, instance:TestCalculate@683dbc2c]" started-at="2021-01-15T01:02:52 IST" name="init" finished-at="2021-01-15T01:02:52 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:TestCalculate@683dbc2c]" started-at="2021-01-15T01:35:52 IST" name="init" finished-at="2021-01-15T01:35:52 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="EmptyStringReturnZero()[pri:0, instance:TestCalculate@683dbc2c]" started-at="2021-01-15T01:02:52 IST" name="EmptyStringReturnZero" finished-at="2021-01-15T01:02:52 IST" duration-ms="14" status="PASS">
+        <test-method signature="EmptyStringReturnZero()[pri:0, instance:TestCalculate@683dbc2c]" started-at="2021-01-15T01:35:52 IST" name="EmptyStringReturnZero" finished-at="2021-01-15T01:35:52 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmptyStringReturnZero -->
-        <test-method signature="StringWithSingleNumber()[pri:0, instance:TestCalculate@683dbc2c]" started-at="2021-01-15T01:02:52 IST" name="StringWithSingleNumber" finished-at="2021-01-15T01:02:52 IST" duration-ms="1" status="PASS">
+        <test-method signature="StringWithSingleNumber()[pri:0, instance:TestCalculate@683dbc2c]" started-at="2021-01-15T01:35:52 IST" name="StringWithSingleNumber" finished-at="2021-01-15T01:35:52 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StringWithSingleNumber -->

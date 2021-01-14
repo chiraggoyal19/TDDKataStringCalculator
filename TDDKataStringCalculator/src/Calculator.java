@@ -1,11 +1,11 @@
 
 public class Calculator {
 
-	public int calculate(String string) {
-		if(string.isEmpty()) {
+	public int calculate(String input) {
+		if(input.isEmpty()) {
 			return 0;
 		}
-		return 1;
+		return Integer.parseInt(input);
 	}
 
 }

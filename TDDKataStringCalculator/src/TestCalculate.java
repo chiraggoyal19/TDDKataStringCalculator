@@ -18,5 +18,6 @@ public class TestCalculate {
 	// Test-2 String with Single Number Must return that Number
 	public void StringWithSingleNumber() {
 		assertEquals(calculator.calculate("1"),1);
+		assertEquals(calculator.calculate("2"),2);
 	}
 }
