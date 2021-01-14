@@ -55,7 +55,7 @@ public class TestCalculate {
 	
 	//Test-8 Delimiters of Variable Length
 	public void DelimitersofVariableLength() throws Exception {
-		assertEquals(calculator.calculate("//[***]\n1***2***3"),6);
+		assertEquals(calculator.calculate("//[***]\n1***2***3"),(6));
 	}
 	
 }

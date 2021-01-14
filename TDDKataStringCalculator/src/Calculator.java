@@ -1,12 +1,20 @@
+import java.util.regex.Pattern;
 
 public class Calculator {
-	private final String delimiter=",|\n";
+	
 	public int calculate(String input) throws Exception {
-		
+		String numbers[]=null;
 		if(input.startsWith("//")) {
-			return 6;
+			String parts[]=input.split("\n", 2);
+			String delimiter=finddelimiter(parts[0]);
+			String numbers1[]=parts[1].split(delimiter);
+			numbers=numbers1.clone();
 		}
-		String numbers[]=input.split(delimiter);
+		else {
+			String numbers1[]=input.split(",|\n");
+			numbers=numbers1.clone();
+		}
+		
 		if(input.isEmpty()) {
 			return 0;
 		}
@@ -17,6 +25,15 @@ public class Calculator {
 			return CalculateSum(numbers);
 		}
 	}
+	
+	private static String finddelimiter(String header) {
+		String delimiter=header.substring(2);
+		if(delimiter.startsWith("[")) {
+			delimiter=delimiter.substring(1,delimiter.length()-1);
+		}
+		return Pattern.quote(delimiter);
+	}
+	
 	
 	private int CalculateSum(String number[]) throws Exception {
 		CheckforNegatives(number);
