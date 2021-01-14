@@ -28,9 +28,16 @@ public class TestCalculate {
 	
 	
 	//Test-4 String with two numbers and NewLine delimiter returns the sum
-		public void ReturnSumofTwoNumberWithNewLineDelimiter() {
-			assertEquals(calculator.calculate("1\n2"),3);
-			assertEquals(calculator.calculate("2\n2"),4);
+	public void ReturnSumofTwoNumberWithNewLineDelimiter() {
+		assertEquals(calculator.calculate("1\n2"),3);
+		assertEquals(calculator.calculate("2\n2"),4);
 		}
+		
+	//Test-5 String with three numbers and Comma and  NewLine delimiter returns the sum
+	public void ReturnSumofThreeNumberWithCommaAndNewLineDelimiter() {
+		assertEquals(calculator.calculate("1,2,3"),6);
+		assertEquals(calculator.calculate("1\n2\n3"),6);
+		
+	}	
 	
 }
