@@ -6,7 +6,7 @@
       <class name="TestCalculate">
         <methods>
           <include name="init"/>
-          <include name="ValuesGreaterThan1000AreIgnored"/>
+          <include name="DelimitersofVariableLength"/>
         </methods>
       </class> <!-- TestCalculate -->
     </classes>
