@@ -1,26 +1,34 @@
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Calculator {
 	
 	public int calculate(String input) throws Exception {
+		
+		if(input.isEmpty()) {
+			return 0;
+		}
+		
 		String numbers[]=null;
+		
 		if(input.startsWith("//")) {
 			String parts[]=input.split("\n", 2);
 			String delimiter=finddelimiter(parts[0]);
 			String numbers1[]=parts[1].split(delimiter);
 			numbers=numbers1.clone();
 		}
+		
 		else {
 			String numbers1[]=input.split(",|\n");
 			numbers=numbers1.clone();
 		}
 		
-		if(input.isEmpty()) {
-			return 0;
-		}
+		
 		if(numbers.length==1 && input.length()==1) {
 			return Integer.parseInt(input);
 		}
+		
 		else {
 			return CalculateSum(numbers);
 		}
@@ -31,7 +39,9 @@ public class Calculator {
 		if(delimiter.startsWith("[")) {
 			delimiter=delimiter.substring(1,delimiter.length()-1);
 		}
-		return Pattern.quote(delimiter);
+		return Stream.of(delimiter.split("]\\["))
+				.map(Pattern::quote)
+				.collect(Collectors.joining("|"));
 	}
 	
 	
